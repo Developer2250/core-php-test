@@ -15,9 +15,7 @@ $users = $result->fetch_all(MYSQLI_ASSOC);
 <html>
 <title>Users</title>
 
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+<?php include('header.php'); ?>
 
 <body>
     <div class="container mt-5">
